@@ -1,73 +1,79 @@
 # AI Image Enlarger
 
 <!-- SIUSER-REPO-GUIDE:START -->
-## Repository Guide
+## 项目介绍 / Project Introduction
 
-### What This Repository Does
-
+### 中文
 AI 图片放大工具：用于图片超分辨率、画质增强和放大工作流。
 
-English summary: AI image enlargement tool for super-resolution, image enhancement, and upscaling workflows.
+### English
+AI image enlargement tool for super-resolution, image enhancement, and upscaling workflows.
 
-### Online Entry Points
+## 使用方式 / Usage
 
-- GitHub repository: https://github.com/siuserxiaowei/AI-image-enlarge
-- Live / GitHub Pages: https://v0-ai-image-enlarger.vercel.app
-- Default branch: `main`
-- Primary language: `TypeScript`
+### 中文
+1. 先克隆仓库并安装 Node 依赖。
+2. 根据 `package.json` 中的 scripts 启动开发、构建或测试命令。
+3. 如果有在线入口，先对照线上页面理解最终效果，再回到源码修改。
 
-### How To Read / Learn This Repository
+### English
+1. Clone the repository and install the Node dependencies.
+2. Use the scripts in `package.json` for development, build, or tests.
+3. If a live link exists, review the deployed page first, then make source changes.
 
-1. 先读本 README，确认项目目标、在线入口和本地运行方式。
-2. 打开上方 Live / GitHub Pages 链接，先从最终效果理解项目。
-3. 查看 `package.json` 的 scripts，确认开发、构建和预览命令。
-4. 如果要修改内容，先小范围改动，再运行本 README 中的验证命令。
+## 入口与元信息 / Entry Points & Metadata
 
-### Clone This Repository
+- GitHub 仓库 / Repository: https://github.com/siuserxiaowei/AI-image-enlarge
+- Live / 在线入口：https://v0-ai-image-enlarger.vercel.app
+- 默认分支 / Default branch: `main`
+- 主要语言 / Primary language: `TypeScript`
+- 可见性 / Visibility: `public`
+- 仓库类型 / Repository type: `source`
+
+## 本地运行 / Local Run
 
 ```bash
 git clone https://github.com/siuserxiaowei/AI-image-enlarge.git
 cd AI-image-enlarge
+pnpm install
+pnpm run dev
+pnpm run start
+pnpm run build
 ```
 
-### Run Or View Locally
+## 仓库结构 / Repository Map
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+| 路径 / Path | 中文说明 | English |
+| --- | --- | --- |
+| `README.md` | 项目入口说明，先读这里。 | Main project entry point and orientation. |
+| `package.json` | Node/前端项目配置、依赖和脚本。 | Node/frontend dependencies and scripts. |
+| `app` | 应用路由或主要页面目录。 | Application routes or main page directory. |
+| `components` | 可复用 UI 或功能组件。 | Reusable UI or feature components. |
+| `lib` | 共享工具、业务逻辑或集成代码。 | Shared utilities, business logic, or integrations. |
+| `public` | 公开静态资源。 | Public static assets. |
+| `styles` | 项目文件或目录。 | Project file or directory. |
+| `.gitignore` | 项目文件或目录。 | Project file or directory. |
+| `components.json` | 项目文件或目录。 | Project file or directory. |
+| `next.config.mjs` | 项目文件或目录。 | Project file or directory. |
+| `pnpm-lock.yaml` | pnpm 依赖锁定文件。 | pnpm dependency lockfile. |
+| `postcss.config.mjs` | 项目文件或目录。 | Project file or directory. |
 
-### Repository Map
+## 维护备注 / Maintenance Notes
 
-| Path | Purpose |
-| --- | --- |
-| `README.md` | 项目入口说明，先读这里。 |
-| `package.json` | Node/前端项目配置和常用脚本。 |
-| `app/` | 应用入口或路由目录。 |
-| `public/` | 公开静态资源。 |
-| `components.json` | 项目文件。 |
-| `components/` | 项目目录。 |
-| `lib/` | 项目目录。 |
-| `next.config.mjs` | 项目文件。 |
-| `pnpm-lock.yaml` | 项目文件。 |
-| `postcss.config.mjs` | 项目文件。 |
-| `styles/` | 项目目录。 |
-| `tsconfig.json` | 项目文件。 |
+- 中文：当项目目标、在线入口、运行命令或目录结构变化时，同步更新本说明。
+- English: Keep this guide updated when the project purpose, live link, run commands, or structure changes.
+- 中文：修改代码、数据或生成页面后，优先运行相关构建、测试或校验命令。
+- English: After changing code, data, or generated pages, run the relevant build, test, or validation command.
 
-### Maintenance Notes
+## 安全与隐私 / Safety & Privacy
 
-- Keep this README in sync when the project purpose, live link, or run commands change.
-- Prefer small, focused commits when changing code, data, or generated pages.
-- Run the relevant build or validation command before publishing changes.
-- If this is a generated/static archive, update the source data first, then regenerate the public files.
-
-### Privacy And Safety
-
-- Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
-- Keep private source material out of public GitHub Pages output unless it has been explicitly cleared for publication.
-- When in doubt, run a quick secret scan such as `rg -n "token|secret|password|access_key|authorization"` before pushing.
+- 中文：不要提交 API key、token、密码、cookie、私有链接或内部账号资料。
+- English: Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
+- 中文：公开 GitHub Pages 前，确认资料已脱敏并允许公开。
+- English: Before publishing GitHub Pages output, confirm the material is redacted and cleared for public release.
 <!-- SIUSER-REPO-GUIDE:END -->
+
+
 
 <!-- SIUSER-SEO-INTRO:START -->
 
